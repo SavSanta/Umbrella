@@ -18,7 +18,7 @@ try:
     from Crypto.PublicKey import RSA
     from Crypto.Util.Padding import pad as _pad
 except ImportError:
-    sys.exit("[!] Install dependency: pip install pycryptodome")
+    sys.exit("[!] Install dependency: pip3 install pycryptodome")
 
 try:
     from colorama import Fore, Back, Style, init as _cl_init
@@ -31,7 +31,7 @@ except ImportError:
     Fore = Style = _N()         # type: ignore
     COLOURS = [""]
 
-BANNER_TEXT = "Umrella"      # ← change this string for another name
+BANNER_TEXT = "Umbrella"      # ← change this string for another name
 
 BANNER = rf"""
         ⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⣀|⣀⣀⣀⠀⠀⣤⡀⠀⠀⠀|⠀⠀⠀⠀         |
