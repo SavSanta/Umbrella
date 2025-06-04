@@ -74,7 +74,7 @@ python3 umbrella.py
         ⠀⠀⠙⠤⣉⢉⡠⠎⠀⠀⠀⠀|⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀|⠀⠀⠀
     |
                 𝚄𝚖𝚋𝚛𝚎𝚕𝚕𝚊
-usage: super_encryptor.py [-h] [-i FILE] [-o OUTPUT] (-enc {aes,rc4,xor,salsa20,chacha20,caesar,polymorphic,rsa,shikata_ga_nai} | -obf {ipv4,ipv6,mac,uuid,reverse} | --key-guard) [-key KEY(hex)] [-key-len int] [-var variable_name]
+usage: umbrella.py [-h] [-i FILE] [-o OUTPUT] (-enc {aes,rc4,xor,salsa20,chacha20,caesar,polymorphic,rsa,shikata_ga_nai} | -obf {ipv4,ipv6,mac,uuid,reverse} | --key-guard) [-key KEY(hex)] [-key-len int] [-var variable_name]
                           [-format {raw,c,csharp,python,rust,nim,java,powershell,vba,perl,ruby,go}] [-format-key {raw,c,csharp,python,rust,nim,java,powershell,vba,perl,ruby,go}] [-stub-format {c,csharp,python,rust,nim,java,powershell,vba}]
                           [-entropy [{base32,base64,base16,base85}]] [-compress {zlib,gzip,bz2,lzma}] [-sub SUB] [-rounds ROUNDS] [-stdout]
 
