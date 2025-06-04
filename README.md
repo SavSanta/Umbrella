@@ -1,4 +1,4 @@
-# umbrella ☔
+# umbrella
 > Protect your shellcode from the rain.
 
 ---
