@@ -1,14 +1,21 @@
-# Umbrella
+# umbrella ☔
 > Protect your shellcode from the rain.
 
 ---
-
+![rain](assets/rain.jpg)
 ## Description
 
 Umbrella is a robust shellcode encryptor/obfuscator/encoder built to strengthen the security and stealth of your payloads. It's specifically developed to streamline malware development and red-team operations.
 
 This tool is vibe-coded, so it might contain some bugs expect occasional hiccups and feel free to report any issues you encounter.
 
+## ☕ Support
+
+If you find this project useful, consider buying me a coffee:
+
+- [![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-yellow?logo=buy-me-a-coffee&style=flat-square)](https://www.buymeacoffee.com/pipapupatuta)
+
+- BTC: bc1qdd5uvhlsd8g056lz5mx288snlxq9z4fk42jj8r
 ## Features
 
 - **Encryption Algorithms:**  
@@ -108,10 +115,6 @@ python umbrella.py -obf ipv4 -i payload.bin -o ipv4_shellcode.c -format c
 - Key Guard:
 ```bash
 python umbrella.py --key-guard -key a76067532ae68146725dc92177172aea -format c -format-key c
-```
-- Shikata Ga Nai Encoding:
-```bash
-python umbrella.py -obf shikata_ga_nai -i payload.bin -o encoded_payload.bin -rounds 3
 ```
 Compress & Base85 Encode:
 ```bash
